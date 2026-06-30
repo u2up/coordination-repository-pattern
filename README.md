@@ -1,9 +1,10 @@
 # Projects Have Memory Too
 
-A Git-native architectural pattern for durable project coordination state.
+A Git-native architectural pattern for separating project coordination state
+from implementation state.
 
-Projects should own their durable coordination state, independently of the
-agents, models, and tools that participate in the work.
+> Projects should own their durable coordination state, independently of the
+> agents, models, and tools that participate in the work.
 
 This matters especially in agentic coding. Today's AI coding agents have tools,
 memory, and orchestration.
@@ -11,8 +12,7 @@ memory, and orchestration.
 Projects need something different:
 durable, shared, reviewable coordination state.
 
-The Coordination Repository Pattern separates project coordination state from
-implementation state using a dedicated Git repository.
+The Coordination Repository Pattern does this using a dedicated Git repository.
 
 ## Read next
 
