@@ -2,7 +2,11 @@
 
 A Git-native architectural pattern for durable project coordination state.
 
-Today's AI coding agents have tools, memory, and orchestration.
+Projects should own their durable coordination state, independently of the
+agents, models, and tools that participate in the work.
+
+This matters especially in agentic coding. Today's AI coding agents have tools,
+memory, and orchestration.
 
 Projects need something different:
 durable, shared, reviewable coordination state.
